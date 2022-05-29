@@ -3216,6 +3216,136 @@ img.img-fluid {
 .f_widget.ab_widget h3 {
   margin-top: 30px;
 }
+
+section#about {
+  padding-top: 80px;
+}
+
+ul li a.nav-link.active::after {
+  content: "";
+  position: absolute;
+  top: 10px;
+  right: -10px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #4fa0f3;
+  width: 0;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+  color: #fff;
+  background-color: #4fa0f3;
+}
+
+ul li a.nav-link {
+  position: relative;
+  color: #222;
+}
+
+.container.wptheme_feat_parent.welcome_text {
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+a.banner_btn {
+  margin-bottom: 30px;
+}
+
+.banner_inner {
+  padding-bottom: 30px;
+}
+
+.wptheme_feat_parent h3 {
+  color: #222222;
+  font-size: 21px;
+  text-transform: uppercase;
+}
+
+.wptheme_feat_parent.welcome_text h4 {
+  text-align: center;
+}
+
+.wptheme_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.wptheme_container div.child {
+  width: 50%;
+  padding: 5px;
+  justify-content: center;
+}
+
+.child.second svg {
+  max-width: 360px;
+  margin: auto;
+}
+
+.child.second {
+  display: flex;
+}
+
+.logo-dev {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 55% !important;
+}
+
+.logo-dev span {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.logo-dev span svg {
+  width: 45px;
+  fill: #a8a8a8;
+}
+
+.logo-dev span:nth-child(1) svg {
+  width: 50px;
+}
+
+span.timber svg {
+  margin-left: 10px;
+}
+
+.wptheme_container.third .logo-dev svg {
+  width: 40px !important;
+}
+
+h3.custom-h3 {
+  font-size: 17px;
+  margin-top: -15px;
+  border-top: 1px solid #e7e7e7;
+  padding-bottom: 5px;
+  padding-top: 10px;
+}
+
+span.accord-head {
+  font-size: 15px;
+  margin-top: -15px;
+  color:#000;
+}
+
+#myTabContent {
+  box-shadow: 0px 8px 30px 0px rgb(153 153 153 / 10%);
+  padding: 20px;
+}
+
+ul#myTab {
+  margin-top: 20px;
+}
+
+div#accordion {
+  margin-top: -25px !important;
+}
+
+.card-header {
+  border-bottom: 1px solid rgba(0, 0, 0, .125);
+  padding-left: 0;
+  padding-bottom: 5px;
+  background: #fff;
+}
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */

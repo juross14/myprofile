@@ -3243,7 +3243,7 @@ ul li a.nav-link {
 
 .container.wptheme_feat_parent.welcome_text {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
 }
 
 a.banner_btn {
@@ -3267,6 +3267,7 @@ a.banner_btn {
 .wptheme_container {
   display: flex;
   justify-content: space-evenly;
+  align-items: flex-start;
 }
 
 .wptheme_container div.child {
@@ -3286,14 +3287,15 @@ a.banner_btn {
 
 .logo-dev {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
-  width: 55% !important;
 }
 
+
 .logo-dev span {
-  width: 100%;
   margin: 0 auto;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .logo-dev span svg {
@@ -3346,6 +3348,34 @@ div#accordion {
   padding-bottom: 5px;
   background: #fff;
 }
+
+div#collapseOne {
+  padding: 0;
+  margin-top: 10px;
+}
+
+ul.pagelist li {
+  list-style: circle;
+}
+
+.card-header.collapsed {
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  .wptheme_container div.child {
+      width: 100%;
+  }
+
+  .wptheme_container {
+      flex-direction: column;
+  }
+
+  .child.second {
+      margin-top: 30px;
+  }
+}
+
 /* End Footer Area css
 ============================================================================================ */
 /*---------------------------------------------------- */
